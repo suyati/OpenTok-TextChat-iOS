@@ -74,7 +74,7 @@ connection: A destination OTConnection object. (Use this to send a message to sp
 
 #Authors and Contributors
 
-OpenTok-TextChat-iOS is developed by Suyati Technologies. It is written and maintained by their Open Source
+OpenTok-TextChat-iOS is developed by Suyati Technologies. It is written and maintained by their iOS Development team.
 
 Development Team:
 
