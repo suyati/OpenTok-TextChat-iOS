@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088011C31B8210EB00A5CADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 088011C21B8210EB00A5CADD /* main.m */; };
+		088011C61B8210EB00A5CADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 088011C51B8210EB00A5CADD /* AppDelegate.m */; };
+		088011C91B8210EB00A5CADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088011C81B8210EB00A5CADD /* ViewController.m */; };
+		088011CC1B8210EB00A5CADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088011CA1B8210EB00A5CADD /* Main.storyboard */; };
+		088011CE1B8210EB00A5CADD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088011CD1B8210EB00A5CADD /* Images.xcassets */; };
+		088011D11B8210EB00A5CADD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088011CF1B8210EB00A5CADD /* LaunchScreen.xib */; };
+		088011DD1B8210EB00A5CADD /* SYOpenTokTextChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088011DC1B8210EB00A5CADD /* SYOpenTokTextChatTests.m */; };
+		088011EC1B821B6B00A5CADD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011EB1B821B6B00A5CADD /* AudioToolbox.framework */; };
+		088011EE1B821B7000A5CADD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011ED1B821B7000A5CADD /* AVFoundation.framework */; };
+		088011F01B821B7C00A5CADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011EF1B821B7C00A5CADD /* CoreGraphics.framework */; };
+		088011F21B821B8100A5CADD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011F11B821B8100A5CADD /* CoreMedia.framework */; };
+		088011F41B821B8700A5CADD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011F31B821B8700A5CADD /* CoreTelephony.framework */; };
+		088011F61B821B8F00A5CADD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011F51B821B8F00A5CADD /* CoreVideo.framework */; };
+		088011F81B821B9400A5CADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011F71B821B9400A5CADD /* Foundation.framework */; };
+		088011FA1B821B9900A5CADD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011F91B821B9900A5CADD /* GLKit.framework */; };
+		088011FC1B821BA000A5CADD /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011FB1B821BA000A5CADD /* libc++.dylib */; };
+		088011FE1B821BA700A5CADD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011FD1B821BA700A5CADD /* libsqlite3.dylib */; };
+		088012001B821BAD00A5CADD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088011FF1B821BAD00A5CADD /* OpenGLES.framework */; };
+		088012021B821BB100A5CADD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088012011B821BB100A5CADD /* QuartzCore.framework */; };
+		088012041B821BB700A5CADD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088012031B821BB700A5CADD /* SystemConfiguration.framework */; };
+		088012061B821BBB00A5CADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088012051B821BBB00A5CADD /* UIKit.framework */; };
+		088012081B821BBF00A5CADD /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088012071B821BBF00A5CADD /* VideoToolbox.framework */; };
+		0880120E1B821E7E00A5CADD /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0880120C1B821E7D00A5CADD /* ChatCell.m */; };
+		0880120F1B821E7E00A5CADD /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0880120D1B821E7E00A5CADD /* ChatCell.xib */; };
+		0880125E1B822C8A00A5CADD /* SYOpenTokClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0880125D1B822C8A00A5CADD /* SYOpenTokClient.m */; };
+		08984FB61B83005C003633B3 /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08984FB51B83005C003633B3 /* OpenTok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088011D71B8210EB00A5CADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088011B51B8210EA00A5CADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088011BC1B8210EA00A5CADD;
+			remoteInfo = SYOpenTokTextChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088011BD1B8210EA00A5CADD /* SYOpenTokTextChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYOpenTokTextChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		088011C11B8210EB00A5CADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088011C21B8210EB00A5CADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		088011C41B8210EB00A5CADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		088011C51B8210EB00A5CADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		088011C71B8210EB00A5CADD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		088011C81B8210EB00A5CADD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		088011CB1B8210EB00A5CADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		088011CD1B8210EB00A5CADD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		088011D01B8210EB00A5CADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		088011D61B8210EB00A5CADD /* SYOpenTokTextChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYOpenTokTextChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		088011DB1B8210EB00A5CADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088011DC1B8210EB00A5CADD /* SYOpenTokTextChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYOpenTokTextChatTests.m; sourceTree = "<group>"; };
+		088011EB1B821B6B00A5CADD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		088011ED1B821B7000A5CADD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		088011EF1B821B7C00A5CADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		088011F11B821B8100A5CADD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		088011F31B821B8700A5CADD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		088011F51B821B8F00A5CADD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		088011F71B821B9400A5CADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		088011F91B821B9900A5CADD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		088011FB1B821BA000A5CADD /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		088011FD1B821BA700A5CADD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		088011FF1B821BAD00A5CADD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		088012011B821BB100A5CADD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		088012031B821BB700A5CADD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		088012051B821BBB00A5CADD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		088012071B821BBF00A5CADD /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		0880120B1B821E7D00A5CADD /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		0880120C1B821E7D00A5CADD /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		0880120D1B821E7E00A5CADD /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		0880125C1B822C8A00A5CADD /* SYOpenTokClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYOpenTokClient.h; sourceTree = "<group>"; };
+		0880125D1B822C8A00A5CADD /* SYOpenTokClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYOpenTokClient.m; sourceTree = "<group>"; };
+		08984FB51B83005C003633B3 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenTok.framework; path = SYOpenTokTextChat/OpenTok.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088011BA1B8210EA00A5CADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088012081B821BBF00A5CADD /* VideoToolbox.framework in Frameworks */,
+				088012061B821BBB00A5CADD /* UIKit.framework in Frameworks */,
+				088012041B821BB700A5CADD /* SystemConfiguration.framework in Frameworks */,
+				088012021B821BB100A5CADD /* QuartzCore.framework in Frameworks */,
+				088012001B821BAD00A5CADD /* OpenGLES.framework in Frameworks */,
+				088011FE1B821BA700A5CADD /* libsqlite3.dylib in Frameworks */,
+				088011FC1B821BA000A5CADD /* libc++.dylib in Frameworks */,
+				088011FA1B821B9900A5CADD /* GLKit.framework in Frameworks */,
+				088011F81B821B9400A5CADD /* Foundation.framework in Frameworks */,
+				088011F61B821B8F00A5CADD /* CoreVideo.framework in Frameworks */,
+				088011F41B821B8700A5CADD /* CoreTelephony.framework in Frameworks */,
+				088011F21B821B8100A5CADD /* CoreMedia.framework in Frameworks */,
+				088011F01B821B7C00A5CADD /* CoreGraphics.framework in Frameworks */,
+				08984FB61B83005C003633B3 /* OpenTok.framework in Frameworks */,
+				088011EE1B821B7000A5CADD /* AVFoundation.framework in Frameworks */,
+				088011EC1B821B6B00A5CADD /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088011D31B8210EB00A5CADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088011B41B8210EA00A5CADD = {
+			isa = PBXGroup;
+			children = (
+				088012091B821C1A00A5CADD /* Dependencies */,
+				088011BF1B8210EA00A5CADD /* SYOpenTokTextChat */,
+				088011D91B8210EB00A5CADD /* SYOpenTokTextChatTests */,
+				088011BE1B8210EA00A5CADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088011BE1B8210EA00A5CADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088011BD1B8210EA00A5CADD /* SYOpenTokTextChat.app */,
+				088011D61B8210EB00A5CADD /* SYOpenTokTextChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088011BF1B8210EA00A5CADD /* SYOpenTokTextChat */ = {
+			isa = PBXGroup;
+			children = (
+				0880125F1B822CCF00A5CADD /* SYOpenTok */,
+				0880120A1B821E7D00A5CADD /* Chat Cell */,
+				088011C41B8210EB00A5CADD /* AppDelegate.h */,
+				088011C51B8210EB00A5CADD /* AppDelegate.m */,
+				088011C71B8210EB00A5CADD /* ViewController.h */,
+				088011C81B8210EB00A5CADD /* ViewController.m */,
+				088011CA1B8210EB00A5CADD /* Main.storyboard */,
+				088011CD1B8210EB00A5CADD /* Images.xcassets */,
+				088011CF1B8210EB00A5CADD /* LaunchScreen.xib */,
+				088011C01B8210EB00A5CADD /* Supporting Files */,
+			);
+			path = SYOpenTokTextChat;
+			sourceTree = "<group>";
+		};
+		088011C01B8210EB00A5CADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				088011C11B8210EB00A5CADD /* Info.plist */,
+				088011C21B8210EB00A5CADD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		088011D91B8210EB00A5CADD /* SYOpenTokTextChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				088011DC1B8210EB00A5CADD /* SYOpenTokTextChatTests.m */,
+				088011DA1B8210EB00A5CADD /* Supporting Files */,
+			);
+			path = SYOpenTokTextChatTests;
+			sourceTree = "<group>";
+		};
+		088011DA1B8210EB00A5CADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				088011DB1B8210EB00A5CADD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		088012091B821C1A00A5CADD /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				08984FB51B83005C003633B3 /* OpenTok.framework */,
+				088012071B821BBF00A5CADD /* VideoToolbox.framework */,
+				088012051B821BBB00A5CADD /* UIKit.framework */,
+				088012031B821BB700A5CADD /* SystemConfiguration.framework */,
+				088012011B821BB100A5CADD /* QuartzCore.framework */,
+				088011FF1B821BAD00A5CADD /* OpenGLES.framework */,
+				088011FD1B821BA700A5CADD /* libsqlite3.dylib */,
+				088011FB1B821BA000A5CADD /* libc++.dylib */,
+				088011F91B821B9900A5CADD /* GLKit.framework */,
+				088011F71B821B9400A5CADD /* Foundation.framework */,
+				088011F51B821B8F00A5CADD /* CoreVideo.framework */,
+				088011F31B821B8700A5CADD /* CoreTelephony.framework */,
+				088011F11B821B8100A5CADD /* CoreMedia.framework */,
+				088011EF1B821B7C00A5CADD /* CoreGraphics.framework */,
+				088011ED1B821B7000A5CADD /* AVFoundation.framework */,
+				088011EB1B821B6B00A5CADD /* AudioToolbox.framework */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		0880120A1B821E7D00A5CADD /* Chat Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0880120B1B821E7D00A5CADD /* ChatCell.h */,
+				0880120C1B821E7D00A5CADD /* ChatCell.m */,
+				0880120D1B821E7E00A5CADD /* ChatCell.xib */,
+			);
+			path = "Chat Cell";
+			sourceTree = "<group>";
+		};
+		0880125F1B822CCF00A5CADD /* SYOpenTok */ = {
+			isa = PBXGroup;
+			children = (
+				0880125C1B822C8A00A5CADD /* SYOpenTokClient.h */,
+				0880125D1B822C8A00A5CADD /* SYOpenTokClient.m */,
+			);
+			name = SYOpenTok;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088011BC1B8210EA00A5CADD /* SYOpenTokTextChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088011E01B8210EB00A5CADD /* Build configuration list for PBXNativeTarget "SYOpenTokTextChat" */;
+			buildPhases = (
+				088011B91B8210EA00A5CADD /* Sources */,
+				088011BA1B8210EA00A5CADD /* Frameworks */,
+				088011BB1B8210EA00A5CADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYOpenTokTextChat;
+			productName = SYOpenTokTextChat;
+			productReference = 088011BD1B8210EA00A5CADD /* SYOpenTokTextChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		088011D51B8210EB00A5CADD /* SYOpenTokTextChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088011E31B8210EB00A5CADD /* Build configuration list for PBXNativeTarget "SYOpenTokTextChatTests" */;
+			buildPhases = (
+				088011D21B8210EB00A5CADD /* Sources */,
+				088011D31B8210EB00A5CADD /* Frameworks */,
+				088011D41B8210EB00A5CADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088011D81B8210EB00A5CADD /* PBXTargetDependency */,
+			);
+			name = SYOpenTokTextChatTests;
+			productName = SYOpenTokTextChatTests;
+			productReference = 088011D61B8210EB00A5CADD /* SYOpenTokTextChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088011B51B8210EA00A5CADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Suyati Technologies";
+				TargetAttributes = {
+					088011BC1B8210EA00A5CADD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					088011D51B8210EB00A5CADD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 088011BC1B8210EA00A5CADD;
+					};
+				};
+			};
+			buildConfigurationList = 088011B81B8210EA00A5CADD /* Build configuration list for PBXProject "SYOpenTokTextChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088011B41B8210EA00A5CADD;
+			productRefGroup = 088011BE1B8210EA00A5CADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088011BC1B8210EA00A5CADD /* SYOpenTokTextChat */,
+				088011D51B8210EB00A5CADD /* SYOpenTokTextChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088011BB1B8210EA00A5CADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088011CC1B8210EB00A5CADD /* Main.storyboard in Resources */,
+				0880120F1B821E7E00A5CADD /* ChatCell.xib in Resources */,
+				088011D11B8210EB00A5CADD /* LaunchScreen.xib in Resources */,
+				088011CE1B8210EB00A5CADD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088011D41B8210EB00A5CADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088011B91B8210EA00A5CADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088011C91B8210EB00A5CADD /* ViewController.m in Sources */,
+				088011C61B8210EB00A5CADD /* AppDelegate.m in Sources */,
+				088011C31B8210EB00A5CADD /* main.m in Sources */,
+				0880120E1B821E7E00A5CADD /* ChatCell.m in Sources */,
+				0880125E1B822C8A00A5CADD /* SYOpenTokClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088011D21B8210EB00A5CADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088011DD1B8210EB00A5CADD /* SYOpenTokTextChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088011D81B8210EB00A5CADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088011BC1B8210EA00A5CADD /* SYOpenTokTextChat */;
+			targetProxy = 088011D71B8210EB00A5CADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		088011CA1B8210EB00A5CADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088011CB1B8210EB00A5CADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		088011CF1B8210EB00A5CADD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088011D01B8210EB00A5CADD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088011DE1B8210EB00A5CADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		088011DF1B8210EB00A5CADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088011E11B8210EB00A5CADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SYOpenTokTextChat",
+				);
+				INFOPLIST_FILE = SYOpenTokTextChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		088011E21B8210EB00A5CADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SYOpenTokTextChat",
+				);
+				INFOPLIST_FILE = SYOpenTokTextChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		088011E41B8210EB00A5CADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SYOpenTokTextChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYOpenTokTextChat.app/SYOpenTokTextChat";
+			};
+			name = Debug;
+		};
+		088011E51B8210EB00A5CADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SYOpenTokTextChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYOpenTokTextChat.app/SYOpenTokTextChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088011B81B8210EA00A5CADD /* Build configuration list for PBXProject "SYOpenTokTextChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088011DE1B8210EB00A5CADD /* Debug */,
+				088011DF1B8210EB00A5CADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088011E01B8210EB00A5CADD /* Build configuration list for PBXNativeTarget "SYOpenTokTextChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088011E11B8210EB00A5CADD /* Debug */,
+				088011E21B8210EB00A5CADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088011E31B8210EB00A5CADD /* Build configuration list for PBXNativeTarget "SYOpenTokTextChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088011E41B8210EB00A5CADD /* Debug */,
+				088011E51B8210EB00A5CADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088011B51B8210EA00A5CADD /* Project object */;
+}

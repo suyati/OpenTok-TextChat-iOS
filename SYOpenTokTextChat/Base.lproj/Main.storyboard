@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Gss-Kd-Kar">
+                                <rect key="frame" x="0.0" y="28" width="320" height="225"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="mue-K0-16K"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="UZh-90-QBh"/>
+                                </connections>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="line" placeholder="Type you Message" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s4T-rj-zPr">
+                                <rect key="frame" x="0.0" y="263" width="241" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.24879841050000001" blue="0.32238352170000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kTN-5Y-TDQ"/>
+                                </constraints>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJ1-7P-VQP">
+                                <rect key="frame" x="243" y="264" width="77" height="49"/>
+                                <color key="backgroundColor" red="0.86666666670000003" green="0.86274509799999999" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="6St-Ly-fiP"/>
+                                    <constraint firstAttribute="width" constant="77" id="DyV-ha-16k"/>
+                                </constraints>
+                                <state key="normal" title="Send">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4ZR-QU-xMW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s4T-rj-zPr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="7hm-0D-rKY"/>
+                            <constraint firstItem="Gss-Kd-Kar" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="PjK-gU-aHB"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Gss-Kd-Kar" secondAttribute="bottom" constant="315" id="SqT-7Z-lTm"/>
+                            <constraint firstAttribute="trailing" secondItem="Gss-Kd-Kar" secondAttribute="trailing" id="Xu7-lB-R2N"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="s4T-rj-zPr" secondAttribute="bottom" constant="255" id="e3U-Kc-NZJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s4T-rj-zPr" secondAttribute="trailing" constant="63" id="ffw-1D-qZa"/>
+                            <constraint firstItem="Gss-Kd-Kar" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="28" id="pQf-2k-sr3"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="dJ1-7P-VQP" secondAttribute="bottom" constant="255" id="qX5-dH-DFY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dJ1-7P-VQP" secondAttribute="trailing" constant="-16" id="uWg-7g-Nqh"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tableView" destination="Gss-Kd-Kar" id="qih-zO-feM"/>
+                        <outlet property="txtMessage" destination="s4T-rj-zPr" id="ajk-nE-vdH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="438" y="321"/>
+        </scene>
+    </scenes>
+</document>
