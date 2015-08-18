@@ -3,7 +3,7 @@ A wrapper for OpenTok iOS SDK to easily integrate Text Chat feature into your ap
 
 #Setup
 
-#Running the Sample App
+##Running the Sample App
 
 * Download latest OpenTok iOS SDK from https://tokbox.com/developer/sdks/ios/
 
@@ -23,7 +23,7 @@ KSESSION_TOKEN
 ```
 * Run the application. 
 
-#Integration with existing project 
+##Integration with existing project 
 
 * Add SYOpenTokClient.h and SYOpenTokClient.m into your project.
 
