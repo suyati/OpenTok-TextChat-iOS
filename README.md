@@ -1,8 +1,6 @@
 # OpenTok-TextChat-iOS
 A wrapper for OpenTok iOS SDK to easily integrate Text Chat feature into your applications.
 
-#Result
-
 #Setup
 
 1. Download latest OpenTok iOS SDK from https://tokbox.com/developer/sdks/ios/
@@ -13,7 +11,7 @@ A wrapper for OpenTok iOS SDK to easily integrate Text Chat feature into your ap
 
 4. Create a session and token. Also note the APP Key.
 
-5. Download OpenTok-TextChat-iOS. Add Opentok Framework in to the applications.
+5. Download OpenTok-TextChat-iOS. Add Opentok Framework in to your app.
 
 6. Open ViewController.m and fill the following details:
 (KAPI_KEY, 
